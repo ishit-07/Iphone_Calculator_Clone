@@ -13,14 +13,14 @@ html, body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background: linear-gradient(90deg, rgb(152, 56, 15) 0%, rgba(9,9,121,1) 35%, rgb(134, 13, 88) 100%);
     overflow: hidden;
 }
 
 .container{
     height: 95vh;
     width: 100%;
-    background: #000000;
+    background: linear-gradient(90deg, rgb(36, 15, 7) 0%, rgb(8, 8, 49) 35%, rgb(42, 6, 28) 100%);
     padding: 10px;
     border-radius: 20px;
     max-width: 400px;
@@ -63,14 +63,14 @@ html, body{
 }
 
 .item1{
-    color: black;
+    color: rgb(255, 0, 0);
     background: gray;
     font-weight: 500;
 }
 
 .percent{
-    color: black;
-    background: rgb(153, 153, 153);
+    color: rgb(255, 0, 0);
+    background: gray;
     font-weight: 700;
 }
 
@@ -79,8 +79,8 @@ html, body{
 }
 
 .item3{
-    color: black;
-    background: orange;
+    color: rgb(255, 0, 0);
+    background: gray;
 }
 
 .item3:hover{
@@ -88,8 +88,8 @@ html, body{
 }
 
 .numbers,.point{
-    color: white;
-    background: rgb(64, 64, 64);
+    color: rgb(255, 0, 0);
+    background: gray;
 }
 
 .numbers:hover,.point:hover{
